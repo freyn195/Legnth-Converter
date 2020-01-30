@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="script.js"></script>
+  </head>
+
+  <title>Yards to cm Length Converter</title>
+ <body>
+   <div class="lengthTitle">
+      <h1>Length Converter</h1>
+   </div>
+<p>Type a value in the Yards field to convert the value to cm:</p>
+
+<div class="center">
+  <p>
+   <label><b>Inches</b></label>
+   <input id="inputInches" type="number" placeholder="Inches" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+   
+  <p><b>cm:</b><span id="outputcm">
+  <p><b>Yards:</b></p><span id="outputYards">
+    
+  </span>
+  </span>
+ </p>
+</div>
+   
+</body>
+</html>
